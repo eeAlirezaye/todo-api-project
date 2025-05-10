@@ -139,7 +139,7 @@ For more detailed monitoring, consider setting up:
 
 ## CI/CD Pipeline
 
-The GitHub Actions workflow in `.github/workflows/deploy.yml` will:
+The GitHub Actions workflow in `.github/workflows/deploy.yaml` will:
 1. Build and test the application
 2. Build and push the Docker image
 3. Deploy to Kubernetes
